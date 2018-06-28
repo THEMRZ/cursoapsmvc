@@ -104,10 +104,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\DBEstoque.mdf" />
-    <Content Include="App_Data\DBEstoque_log.ldf">
-      <DependentUpon>DBEstoque.mdf</DependentUpon>
-    </Content>
+    <Content Include="App_Data\CaelumEstoque.DAO.EstoqueContext.mdf" />
     <Content Include="Global.asax" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -145,6 +142,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Produto\Index.cshtml" />
     <Content Include="Views\Categoria\Index.cshtml" />
+    <Content Include="Views\Produto\Cadastro.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
